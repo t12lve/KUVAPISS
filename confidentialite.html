@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Déclaration de confidentialité de l’extension KUVAPISS.">
+  <meta name="theme-color" content="#f0efeb">
+  <title>Confidentialité — KUVAPISS</title>
+  <link rel="icon" type="image/png" href="icon.png">
+  <style>
+    :root { color-scheme:light; --paper:#f0efeb; --ink:#17252b; --muted:#536168; --yellow:#f5c400; --line:#c9cbc7; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font:17px/1.65 "Segoe UI",Arial,sans-serif; }
+    header,main,footer { width:min(900px,calc(100% - 48px)); margin-inline:auto; }
+    header { height:82px; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--line); }
+    .brand { color:var(--ink); text-decoration:none; display:flex; align-items:center; gap:12px; font-weight:800; letter-spacing:.04em; }
+    .brand img { width:38px; height:38px; }
+    header a:last-child, main a, footer a { color:var(--ink); text-underline-offset:4px; }
+    main { padding-block:74px 100px; }
+    .eyebrow { color:#725800; font-size:13px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
+    h1 { margin:12px 0 16px; font-size:clamp(42px,8vw,76px); line-height:.98; letter-spacing:-.06em; }
+    .lead { max-width:700px; font-size:22px; line-height:1.4; }
+    .updated { color:var(--muted); font-size:14px; }
+    article { margin-top:55px; max-width:700px; }
+    h2 { margin:38px 0 8px; font-size:23px; letter-spacing:-.025em; }
+    p { margin:10px 0; }
+    .callout { margin-top:40px; padding:18px 22px; border-left:5px solid var(--yellow); background:#e7e5df; }
+    footer { min-height:88px; display:flex; align-items:center; justify-content:space-between; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+    a:focus-visible { outline:3px solid #996e00; outline-offset:4px; }
+    @media(max-width:600px) { header,main,footer { width:calc(100% - 32px); } main { padding-block:52px 72px; } footer { align-items:flex-start; flex-direction:column; justify-content:center; gap:4px; padding-block:18px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="brand" href="./"><img src="icon.png" alt=""><span>KUVAPISS</span></a>
+    <a href="./">Accueil</a>
+  </header>
+  <main>
+    <p class="eyebrow">Confidentialité</p>
+    <h1>Vos pages restent dans votre navigateur.</h1>
+    <p class="lead">KUVAPISS modifie localement certains textes affichés dans les pages web. L’extension ne collecte, ne stocke et ne transmet aucune donnée personnelle.</p>
+    <p class="updated">Dernière mise à jour : 31 octobre 2026</p>
+    <article>
+      <h2>Données traitées</h2>
+      <p>Pour effectuer le remplacement demandé, le script de l’extension lit les nœuds textuels de la page ouverte et peut modifier ceux qui correspondent aux variantes configurées. Ce traitement s’effectue dans votre navigateur.</p>
+
+      <h2>Collecte et transmission</h2>
+      <p>L’extension ne collecte ni ne transmet le contenu des pages, l’historique de navigation, les identifiants ou d’autres données personnelles. Elle n’utilise ni cookies, ni stockage local, ni outil d’analyse, ni service distant.</p>
+
+      <h2>Accès aux sites</h2>
+      <p>Le manifeste demande à l’extension de s’exécuter sur toutes les URL afin d’appliquer son remplacement sur les pages web. Cet accès sert uniquement à cette fonction. Certaines pages internes ou protégées par le navigateur ne permettent pas l’exécution d’extensions.</p>
+
+      <h2>Modifications de cette déclaration</h2>
+      <p>Cette déclaration sera mise à jour si le fonctionnement de l’extension évolue de façon à modifier les données traitées ou les pratiques décrites ici.</p>
+
+      <div class="callout"><strong>En bref :</strong> le texte est traité sur votre appareil ; KUVAPISS ne l’envoie à aucun serveur.</div>
+    </article>
+  </main>
+  <footer><span>KUVAPISS · Déclaration de confidentialité</span><a href="./">Retour à l’accueil</a></footer>
+</body>
+</html>
